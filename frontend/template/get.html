@@ -1,0 +1,16 @@
+<div>
+    Search : <input type="text" name="search" id="search" ng-model="search" autofocus placeholder="Enter task or taskstatus">
+    <button ng-click="getBySearch()">Search</button><br>
+    <table>
+        <tr>
+            <td>Tasks</td>
+            <td>Task Status</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr ng-repeat="res in results">
+            <td>{{ res.task }}</td>
+            <td>{{ res.taskstatus }}</td>
+            <td style="color: crimson; cursor: pointer; font-size: 10px; font-weight: bolder" ng-click="delete(res)">&nbsp;&nbsp;&#9587;&nbsp;&nbsp;</td>
+        </tr>
+    </table>
+</div>

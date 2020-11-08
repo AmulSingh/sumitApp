@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+}
+.view-div{
+    margin: auto;
+    border: 2px solid #ff0066;
+    border-radius: 10px;
+    padding: 25px 30px 45px 30px;
+}
+.default-div{
+    color: black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.center{
+    margin: auto;
+}
+h2{
+    font-display: block;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #ff0066;
+    text-align: center;
+}
+.btn-div,a{
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    display:flex; 
+}
+button{
+    font-display: block;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #ff0066;
+    border-style: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+}
+.red-pink{
+    background-color: #ff0066;
+}
+td{
+    padding: 0 15px;
+}
